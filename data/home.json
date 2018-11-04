@@ -1,0 +1,29 @@
+{
+    "home":[
+        {
+            "name":"Renaissance",
+            "img":"../material/renaissance/WesternRomeFallen.jpg",
+            "link":""
+        },
+        {
+            "name":"SeaDiscovery",
+            "img":"../material/SeaDiscovery/SeaDiscovery.jpg",
+            "link":""
+        },
+        {
+            "name":"ReligiousReformation",
+            "img":"../material/ReligiousReformation/Protestanism.jpg",
+            "link":""
+        },
+        {
+            "name":"ScientificRevolution",
+            "img":"../material/ScientificRevolution/ScientificRevolution.jpg",
+            "link":""
+        },
+        {
+            "name":"IndustrialRevolution",
+            "img":"../material/IndustrialRevolution/IndustrialRevolution.jpg",
+            "link":""
+        }
+    ]
+}
