@@ -23,9 +23,14 @@ function connectJson(){
 }
 
 function goto(){
+    var index = document.getElementById("select").value;
 
-    console.log(DATA);
+    var text = window.location.search;
 
+    console.log(text.indexOf('?'));
 
+    var myurl = 'generation.html' + DATA.home[index].link;
+
+    window.location.assign(myurl);
 
 }

@@ -3,27 +3,27 @@
         {
             "name":"Renaissance",
             "img":"../material/renaissance/WesternRomeFallen.jpg",
-            "link":""
+            "link":"?name=00"
         },
         {
             "name":"SeaDiscovery",
             "img":"../material/SeaDiscovery/SeaDiscovery.jpg",
-            "link":""
+            "link":"?name=01"
         },
         {
             "name":"ReligiousReformation",
             "img":"../material/ReligiousReformation/Protestanism.jpg",
-            "link":""
+            "link":"?name=02"
         },
         {
             "name":"ScientificRevolution",
             "img":"../material/ScientificRevolution/ScientificRevolution.jpg",
-            "link":""
+            "link":"?name=03"
         },
         {
             "name":"IndustrialRevolution",
             "img":"../material/IndustrialRevolution/IndustrialRevolution.jpg",
-            "link":""
+            "link":"?name=04"
         }
     ]
 }
