@@ -61,9 +61,9 @@ body{
         width: 80%;
         margin-left: 10%;
     }
-    .inner{
+    /* .inner{
 
-    }
+    } */
 }
 @media only screen and (max-width: 900px){
     #guide{
@@ -71,9 +71,9 @@ body{
         width: 80%;
         margin-left: 10%;
     }
-    .inner{
+    /* .inner{
         
-    }
+    } */
 }
 @media only screen and (max-width: 500px){
     #guide{
@@ -88,7 +88,7 @@ body{
     #go{
         font-size: 0.6em;
     }
-    .inner{
+    /* .inner{
         
-    }
+    } */
 }
