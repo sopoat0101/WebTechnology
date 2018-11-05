@@ -1,5 +1,6 @@
 
 var DATA;
+var x = 0;
 
 function loadPage(){
     var index = document.getElementById("select").value;
@@ -22,15 +23,33 @@ function connectJson(){
 
 }
 
-function goto(){
-    var index = document.getElementById("select").value;
+function next(){
 
-    var text = window.location.search;
+    x += 1;
+    if(x > DATA.home.length-1){
+        x = 0;
+    }
 
-    console.log(text.indexOf('?'));
+    var pic = document.getElementById('pic');
+    pic.style.transform = 'scale(0.5)';
 
-    var myurl = 'generation.html' + DATA.home[index].link;
+    setTimeout(function(){
+        pic.style.backgroundImage = 'url('+ DATA.home[x].img +')';
+        document.getElementById('hmain').innerHTML = DATA.home[x].nameth;
+    }, 500);
 
-    window.location.assign(myurl);
+    setTimeout(function(){
+        pic.style.transform = 'scale(1)';
+    }, 1000);
+    // console.log(x);
+    // var index = document.getElementById("select").value;
+
+    // var text = window.location.search;
+
+    // console.log(text.indexOf('?'));
+
+    // var myurl = 'generation.html' + DATA.home[index].link;
+
+    // window.location.assign(myurl);
 
 }

@@ -11,17 +11,25 @@
 </head>
 <body onload="connectJson()">
     <div class="container">
-        <div id="guide">
-            <div class="inner">
-                <div><b>โปรดเลือกยุคที่คุณต้องการ</b></div><br>
-                <select onchange="loadPage()" name="" id="select">
-                    <option value="0">ยุคเรอเนสซองส์</option>
-                    <option value="1">ยุคการสำรวจทางทะเล</option>
-                    <option value="2">ยุคปฏิรูปศาสนา</option>
-                    <option value="3">ยุคการปฏิวัติวิทยาศาสตร์</option>
-                    <option value="4">ยุคการปฏิวัติอุตสาหกรรม</option>
-                </select>
-                <input onclick="goto()" id="go" type="submit" value="ไป">
+        <div id="hero">
+            <div>
+                <div id="pic"></div>
+            </div>
+            <div class="text">
+                <div class="head">
+                    ท่องเวลา
+                    
+                </div>
+                <div class="head">
+                    หาประวัติศาสตร์
+                </div>
+                <div class="head" id="hmain">
+                    ยุคเรอเนสซองส์
+                </div>
+                <div id="button">
+                    <input onclick="next()" class="go" type="submit" value="ถัดไป">
+                    <input onclick="" class="go" type="submit" value="เข้าชม">
+                </div>
             </div>
         </div>
     </div>

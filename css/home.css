@@ -1,13 +1,13 @@
 @font-face{
     font-family: 'Chakra Petch';
-    src: url('../font/Chakra_Petch/ChakraPetch-Italic.ttf');
+    src: url('../font/Chakra_Petch/ChakraPetch-Light.ttf');
 }
 
 body{
     font-family: 'Chakra Petch', sans-serif;
     margin: 0 auto;
     background-color: rgb(238, 238, 238);
-    background-image: url(../img/demo.jpg);
+    /* background-image: url(../img/demo.jpg); */
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,83 +15,134 @@ body{
     transition: 0.5s;
 }
 .container{
-    width: 100vw;
+    width: 100%;
+    /* height: 1000px; */
 }
-#guide{
-    position: relative;
-    font-size: 2em;
-    text-align: center;
-    margin-top: 15%;
-    margin-bottom: 15%;
+#hero{
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto 50%;
+    width: 100%;
+    height: 100vh;
+}
+.text{
+    width: 100%;
+    padding: 10% 0%;
+    font-size: 3em;
+    margin-top: 20%;
+}
+#button{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.head{
+    margin-left: 100px;
+}
+#hmain{
+    margin-top: 5%;
+    color: red;
+}
+#pic{
+    /* border-right: solid 1px black; */
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/demo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+}
+#pic:hover{
+    /* transform: scale(0.5); */
+    /* width: 90%;
+    height: 90vh;
+    margin-left: 5%;
+    margin-top: 5vh; */
+}
+.go{
+    font-family: 'Chakra Petch', sans-serif;
     width: 60%;
+    font-size: 0.7em;
+    border: none;
     margin-left: 20%;
-    padding: 50px 0px;
-    box-shadow: 2px 2px 10px rgb(0, 0, 0);
-    background-color: rgba(167, 98, 33, 0.8);
-    /* background-color: rgb(201, 152, 46); */
-    color: white;
-}
-.inner{
-    position: relative;
-    top: 30%;
-}
-#select{
-    font-family: 'Chakra Petch', sans-serif;
-    border: none;
-    font-size: 1.1em;
-    background-color: white;
-    box-shadow: 2px 2px 10px rgb(0, 0, 0);
-    padding: 10px;
-}
-#go{
-    font-family: 'Chakra Petch', sans-serif;
-    background-color: white;
-    border: none;
-    font-size: 1.1em;
-    padding: 5px 50px;
-    margin: 10px;
-    border: solid rgb(165, 101, 42) 1px;
-    color: rgb(165, 101, 42);
-    box-shadow: 2px 2px 10px rgb(0, 0, 0);
-}
-#go:hover{
-    border: solid black 1px;
+    margin-top: 10%;
+    padding: 10px 0px;
 }
 
-@media only screen and (max-width: 1200px){
-    #guide{
+@media only screen and (max-width: 1400px){
+    
+    #hero{
+        grid-template-columns: auto 50%;
+        /* height: 50vh; */
+    }
+    #pic{
+        /* height: 50vh; */
+    }
+    .head{
+        font-size: 1em;
+        margin-left: 30px;
+    }
+    .text{
+        font-size: 2em;
         margin-top: 20%;
+    }
+    .go{
         width: 80%;
+        font-size: 1em;
         margin-left: 10%;
     }
-    /* .inner{
+    #button{
+        margin-top: 10%;
+    }
+}
 
-    } */
-}
-@media only screen and (max-width: 900px){
-    #guide{
+@media only screen and (max-width: 850px){
+    
+    #hero{
+        grid-template-columns: auto 50%;
+        /* height: 50vh; */
+    }
+    #pic{
+        /* height: 50vh; */
+    }
+    .head{
+        font-size: 0.5em;
+        margin-left: 30px;
+    }
+    .text{
+        font-size: 3em;
         margin-top: 5%;
+    }
+    .go{
         width: 80%;
+        font-size: 0.5em;
         margin-left: 10%;
     }
-    /* .inner{
-        
-    } */
+    #button{
+        margin-top: 10%;
+    }
 }
+
 @media only screen and (max-width: 500px){
-    #guide{
-        margin-top: 40%;
+    
+    #hero{
+        grid-template-columns: auto;
+        height: 50vh;
+    }
+    #pic{
+        height: 50vh;
+    }
+    .head{
+        font-size: 0.5em;
+        margin-left: 30px;
+    }
+    .text{
+        margin-top: 0;
+    }
+    .go{
+        font-size: 0.5em;
         width: 80%;
         margin-left: 10%;
-        font-size: 1.9em;
     }
-    #select{
-        font-size: 0.6em;
-    }
-    #go{
-        font-size: 0.6em;
-    }
-    /* .inner{
-        
-    } */
 }

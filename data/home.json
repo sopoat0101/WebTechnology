@@ -2,26 +2,31 @@
     "home":[
         {
             "name":"Renaissance",
+            "nameth":"ยุคเรอเนสซองส์",
             "img":"../material/renaissance/WesternRomeFallen.jpg",
             "link":"?name=00"
         },
         {
             "name":"SeaDiscovery",
+            "nameth":"ยุคการสำรวจทางทะเล",
             "img":"../material/SeaDiscovery/SeaDiscovery.jpg",
             "link":"?name=01"
         },
         {
             "name":"ReligiousReformation",
+            "nameth":"ยุคปฏิรูปศาสนา",
             "img":"../material/ReligiousReformation/Protestanism.jpg",
             "link":"?name=02"
         },
         {
             "name":"ScientificRevolution",
+            "nameth":"ยุคการปฏิวัติวิทยาศาสตร์",
             "img":"../material/ScientificRevolution/ScientificRevolution.jpg",
             "link":"?name=03"
         },
         {
             "name":"IndustrialRevolution",
+            "nameth":"ยุคการปฏิวัติอุสาหกรรม",
             "img":"../material/IndustrialRevolution/IndustrialRevolution.jpg",
             "link":"?name=04"
         }
