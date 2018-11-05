@@ -39,17 +39,33 @@ function next(){
     }, 500);
 
     setTimeout(function(){
-        pic.style.transform = 'scale(1)';
+        pic.style.transform = 'scale(0.9)';
     }, 1000);
-    // console.log(x);
-    // var index = document.getElementById("select").value;
+}
 
-    // var text = window.location.search;
+function go(){
+    var index = x;
 
-    // console.log(text.indexOf('?'));
+    var text = window.location.search;
 
-    // var myurl = 'generation.html' + DATA.home[index].link;
+    console.log(text.indexOf('?'));
 
-    // window.location.assign(myurl);
+    var myurl = 'generation.html' + DATA.home[index].link;
+
+    window.location.assign(myurl);
+}
+
+var y = 0;
+
+function slide(x){
+
+    y += x;
+
+    var hight = window.innerHeight * y
+    window.scroll({
+        top: hight, 
+        behavior: 'smooth'
+    })
+    y = 0;
 
 }

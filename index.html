@@ -11,7 +11,18 @@
 </head>
 <body onload="connectJson()">
     <div class="container">
-        <div id="hero">
+        <div id="content">
+            <div id="tophero">
+                <div class="chead">
+                    <div class="p1">ยินดีต้อนรับสู่เว็บไซต์</div>
+                    <div class="p2">ที่จะพาคุณรู้จักกับบุคคลในแต่ละยุคสมัย</div>
+                </div>
+                <div class="view">
+                    <input type="button" value="ไปกันเลย" onclick="slide(1)">
+                </div>
+            </div>
+        </div>
+        <div id="bothero">
             <div>
                 <div id="pic"></div>
             </div>
@@ -28,13 +39,17 @@
                 </div>
                 <div id="button">
                     <input onclick="next()" class="go" type="submit" value="ถัดไป">
-                    <input onclick="" class="go" type="submit" value="เข้าชม">
+                    <input onclick="go()" class="go" type="submit" value="เข้าชม">
                 </div>
             </div>
         </div>
     </div>
+    <div id="footer">
+
+    </div>
 </body>
 
     <script src="./js/home.js"></script>
+
 
 </html>
