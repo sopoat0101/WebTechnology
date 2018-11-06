@@ -11,7 +11,7 @@
 </head>
 <body onload="connectJson()">
     <div class="container">
-        <div id="content">
+        <!-- <div id="content">
             <div id="tophero">
                 <div class="chead">
                     <div class="p1">ยินดีต้อนรับสู่เว็บไซต์</div>
@@ -21,25 +21,34 @@
                     <input type="button" value="ไปกันเลย" onclick="slide(1)">
                 </div>
             </div>
-        </div>
+        </div> -->
         <div id="bothero">
             <div>
-                <div id="pic"></div>
+                <div>
+                    <div id="pic"></div>
+                    <div class="dot">
+                        <div class="point" onclick="setpic(0)"></div>
+                        <div class="point" onclick="setpic(1)"></div>
+                        <div class="point" onclick="setpic(2)"></div>
+                        <div class="point" onclick="setpic(3)"></div>
+                        <div class="point" onclick="setpic(4)"></div>
+                    </div>
+                </div>
             </div>
             <div class="text">
                 <div class="head">
-                    ท่องเวลา
-                    
+                    ประวัติศาสตร์สากล
                 </div>
-                <div class="head">
-                    หาประวัติศาสตร์
+                <div class="dis">
+                    กดปุ่มด้านล่างเพื่อเลือกยุคสมัย
                 </div>
                 <div class="head" id="hmain">
                     ยุคเรอเนสซองส์
                 </div>
                 <div id="button">
-                    <input onclick="next()" class="go" type="submit" value="ถัดไป">
+                    <input onclick="next(-1)" class="go" type="submit" value="ย้อนกลับ">
                     <input onclick="go()" class="go" type="submit" value="เข้าชม">
+                    <input onclick="next(1)" class="go" type="submit" value="ถัดไป">
                 </div>
             </div>
         </div>
