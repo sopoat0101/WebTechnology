@@ -1,0 +1,182 @@
+{
+    "gen":[
+        {
+            "name":"Renaissance",
+            "nameth":"ยุคเรอเนสซองส์",
+            "text":"../text/renaissance/main.txt",
+            "img":[
+                "../material/renaissance/MonaLisa.jpg",
+                "../material/renaissance/SchoolOfAthens.jpg",
+                "../material/renaissance/WesternRomeFallen.jpg",
+                "../material/renaissance/david.jpg",
+                "../material/renaissance/VitruvianMan.jpg"
+            ],
+            "person":[
+                {
+                    "name":"Leonardo da Vinci",
+                    "img":"../material/renaissance/DaVinci/leonardo-da-vinci.jpg",
+                    "index":"0"
+                },
+                {
+                    "name":"Michelangelo",
+                    "img":"../material/renaissance/Michelangelo/portrait.jpg",
+                    "index":"1"
+                },
+                {
+                    "name":"Raphael",
+                    "img":"../material/renaissance/Raphael/portrait.jpg",
+                    "index":"2"
+                }
+            ]
+        },
+        {
+            "name":"SeaDiscovery",
+            "nameth":"ยุคการสำรวจทางทะเล",
+            "text":"../text/seaDiscovery/main.txt",
+            "img":[
+                "../material/SeaDiscovery/goodHopeCape.jpg",
+                "../material/SeaDiscovery/foundAmerica.jpg",
+                "../material/SeaDiscovery/lapu-lapu.jpg",
+                "../material/SeaDiscovery/GoldenHind.jpg",
+                "../material/SeaDiscovery/route.jpg"
+
+
+            ],
+            "person":[
+                {
+                    "name":"Christopher Columbus",
+                    "img":"../material/SeaDiscovery/Columbus/portrait.jpg",
+                    "index":"0"
+                },
+                {
+                    "name":"Henry TheNavigator",
+                    "img":"../material/SeaDiscovery/HenrytheNavigator/portrait.jpg",
+                    "index":"1"
+                },
+                {
+                    "name":"Bartolomeu Dias",
+                    "img":"../material/SeaDiscovery/BartolomeuDias/portrait.jpg",
+                    "index":"2"
+                },
+                {
+                    "name":"Vasco Da Gama",
+                    "img":"../material/SeaDiscovery/VascoDaGama/portrait.jpg",
+                    "index":"3"
+                },
+                {
+                    "name":"Ferdinand Magellan",
+                    "img":"../material/SeaDiscovery/FerinandMagellan/portrait.jpg",
+                    "index":"4"
+                },
+                {
+                    "name":"Francis Drake",
+                    "img":"../material/SeaDiscovery/FrancisDrake/portrait.jpg",
+                    "index":"5"
+                }
+            ]
+        },
+        {
+            "name":"Reformation",
+            "nameth":"ยุคปฏิรูปศาสนา",
+            "text":"../text/religiousReformation/main.txt",
+            "img":[
+                "material/ReligiousReformation/Protestanism.jpg",
+                "material/ReligiousReformation/LutherWith95These.jpg"
+            ],
+            "person":[
+                {
+                    "name":"Martin Luther",
+                    "img":"../material/ReligiousReformation/MartinLuther/portrait.jpg"
+                }
+            ]
+        },
+        {
+            "name":"ScientificRevolution",
+            "nameth":"ยุคการปฏิวัติวิทยาศาสตร์",
+            "text":"../text/renaissance/main.txt",
+            "img":[
+                "../material/ScientificRevolution/NewtonTelescope.jpg",
+                "../material/ScientificRevolution/galileo_planets1.png",
+                "../material/ScientificRevolution/Copernican+Model.jpg"
+            ],
+            "person":[
+                {
+                    "name":"Nicolaus Copernicus",
+                    "img":"../material/ScientificRevolution/NicolausCopernicus/portrait.jpg",
+                    "index":"0"
+                },
+                {
+                    "name":"Galileo Galilei",
+                    "img":"../material/ScientificRevolution/GalieoGalilei/portrait.jpg",
+                    "index":"1"
+                },
+                {
+                    "name":"Johannes Kepler",
+                    "img":"../material/ScientificRevolution/JohannesKepler/portrait.jpg",
+                    "index":"2"
+                },
+                {
+                    "name":"Isaac Newton",
+                    "img":"../material/ScientificRevolution/IsaacNewton/portrait.jpg",
+                    "index":"3"
+                }
+            ]
+        },
+        {
+            "name":"IndustrialRevolution",
+            "nameth":"ยุคการปฏิวัติอุสาหกรรม",
+            "text":"../text/renaissance/main.txt",
+            "img":[
+                "../material/IndustrialRevolution/AnalyticEngine.jpg",
+                "../material/IndustrialRevolution/Book.jpg",
+                "../material/IndustrialRevolution/Early-Light-Bulb.jpg",
+                "../material/IndustrialRevolution/IndustrialRevolution.jpg",
+                "../material/IndustrialRevolution/PhoneExperimental.jpg",
+                "../material/IndustrialRevolution/SteamMachine.jpg"
+            ],
+            "person":[
+                {
+                    "name":"Adam Smith",
+                    "img":"../material/IndustrialRevolution/AdamSmith/portrait.jpg",
+                    "index":"0"
+                },
+                {
+                    "name":"Karl Marx",
+                    "img":"../material/IndustrialRevolution/KarlMarx/portrait.jpg",
+                    "index":"1"
+                },
+                {
+                    "name":"James Watt",
+                    "img":"../material/IndustrialRevolution/JamesWatt/portrait.jpg",
+                    "index":"2"
+                },
+                {
+                    "name":"Karl Benz",
+                    "img":"../material/IndustrialRevolution/KarlBenz/portrait.jpg",
+                    "index":"3"
+                },
+                {
+                    "name":"Charles Babbage",
+                    "img":"../material/IndustrialRevolution/CharlesBabbage/portrait.jpg",
+                    "index":"4"
+                },
+                {
+                    "name":"Ada Lovelace",
+                    "img":"../material/IndustrialRevolution/AdaLovelace/portrait.jpg",
+                    "index":"5"
+                },
+                {
+                    "name":"Alexander Graham Bell",
+                    "img":"../material/IndustrialRevolution/Bell/portrait.jpg",
+                    "index":"6"
+                },
+                {
+                    "name":"Thomas Edison",
+                    "img":"../material/IndustrialRevolution/ThomasEdison/portrait.jpg",
+                    "index":"7"
+                }
+            ]
+        }
+
+    ]
+}
