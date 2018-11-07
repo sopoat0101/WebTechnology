@@ -60,8 +60,6 @@ function go(){
 
     var text = window.location.search;
 
-    console.log(text.indexOf('?'));
-
     var myurl = 'generation.html' + DATA.home[index].link;
 
     window.location.assign(myurl);

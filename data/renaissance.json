@@ -1,0 +1,21 @@
+{
+    "gen":
+        {
+            "name":"Renaissance",
+            "nameth":"ยุคเรอเนสซองส์",
+            "person":[
+                {
+                    "name":"Leonardo da Vinci",
+                    "img":"../material/renaissance/DaVinci/leonardo-da-vinci.jpg"
+                },
+                {
+                    "name":"Michelangelo",
+                    "img":"../material/renaissance/Michelangelo/portrait.jpg"
+                },
+                {
+                    "name":"Raphael",
+                    "img":"../material/renaissance/Raphael/portrait.jpg"
+                }
+            ]
+        }
+}

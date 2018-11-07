@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/gen.css">
 </head>
-<body>
+<body onload="connectJson()">
     <div id="nav">
         <div class="menu">
             <a href="./index.html"><div class="menuitem">หน้าหลัก</div></a>
-            <div class="menuitem">ยุคเรอเนสซองส์</div>
-            <div class="menuitem">ยุคการสำรวจทางทะเล</div>
-            <div class="menuitem">ยุคปฏิรูปศาสนา</div>
-            <div class="menuitem">ยุคการปฏิวัติวิทยาศาสตร์</div>
-            <div class="menuitem">ยุคการปฏิวัติอุสาหกรรม</div>
+            <div onclick="go(0)" class="menuitem">ยุคเรอเนสซองส์</div>
+            <div onclick="go(1)" class="menuitem">ยุคการสำรวจทางทะเล</div>
+            <div onclick="go(2)" class="menuitem">ยุคปฏิรูปศาสนา</div>
+            <div onclick="go(3)" class="menuitem">ยุคการปฏิวัติวิทยาศาสตร์</div>
+            <div onclick="go(4)" class="menuitem">ยุคการปฏิวัติอุสาหกรรม</div>
         </div>
     </div>
 
@@ -32,6 +32,11 @@
                     <br>รวมทั้งเปิดโลกทัศน์เพื่อเรียนรู้เกี่ยวกับความเจริญต่างๆ ซึ่งแต่เดิมถูกปิดกั้นด้วยความเชื่อทางศาสนาว่า<br> "ทุกอย่างที่เกิดขึ้นในโลกนี้ล้วนเป็นสิ่งที่พระเจ้าบันดาลขึ้น" <br>พัฒนาการดังกล่าวเรียกว่า “แนวคิดมนุษยนิยม (Humanism)” อนึ่งการเรียนรู้ที่สำคัญในสมัยนี้ คือ การฟื้นฟูศิลปะวิทยาการสมัยคลาสสิก ซึ่งเป็นความเจริญของกรีกและโรมันในอดีต</span>  
             </div>
         </div>
+        <div class="headcard">
+            <div></div>
+            <div class="head">รูปภาพที่เกี่ยวข้อง</div>
+            <div></div>
+        </div>
         <div class="content">
             <div class="inner">
                 <div class="pic">
@@ -42,16 +47,16 @@
             </div>
         </div>
         <div class="headcard">
+            <div></div>
+            <div></div>
             <div class="head">บุคคลที่เกี่ยวข้อง</div>
-            <div></div>
-            <div></div>
         </div>
         <div class="content">
             <div class="inner">
                 <!-- CARD -->
                 <div class="maincard">
 
-                    <div class="card">
+                    <!-- <div class="card">
                         <div class="front"></div>
                         <div class="back">
                             <div class="cardimg"></div>
@@ -74,8 +79,9 @@
                             <div class="tag">Leonardo da Vinci</div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- CARD -->
+                </div>
             </div>
         </div>
     </div>
@@ -83,4 +89,8 @@
 
     </div>
 </body>
+
+<script src="./js/gen.js"></script>
+<script src="./js/nav.js"></script>
+
 </html>

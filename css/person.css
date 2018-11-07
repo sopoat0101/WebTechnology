@@ -1,0 +1,7 @@
+#info{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.dis{
+    padding-left: 30%;
+}

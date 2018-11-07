@@ -84,6 +84,7 @@
     position: relative;
     top: 20px;
     width: 90%;
+    margin-left: 5%;
     height: 50%;
     background-image: url('../material/renaissance/Da Vinci/leonardo-da-vinci.jpg');
     background-position: center;
