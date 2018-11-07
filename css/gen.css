@@ -22,6 +22,9 @@
     background-color: rgb(211, 142, 77);
     border: 1px solid black;
     margin-bottom: 5%;
+    text-align: justify;
+    line-height: 50px;
+    font-size: 0.8em;
 }
 .inner{
     margin-left: 5%;
