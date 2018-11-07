@@ -1,0 +1,55 @@
+@font-face{
+    font-family: 'Chakra Petch';
+    src: url('../font/Chakra_Petch/ChakraPetch-Italic.ttf');
+}
+body{
+	font-family: 'Chakra Petch', sans-serif;
+	background-image: url("https://images.alphacoders.com/829/thumb-1920-829914.jpg");
+	background-repeat:   no-repeat;
+    background-position: center center;
+}
+.header{
+	background-color: rgba(165, 42, 42, 0.9);
+	height: 2em;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.container{
+	margin-left: 13vw;
+	margin-right: 15vw;
+	min-height: 100%;
+	bottom: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.infoHeader{
+	border: 0;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background-color: rgba(165, 42, 42, 0.5);
+    width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.infoName{
+	padding: 13px;
+	font-size: 18px;
+}
+.portraitWrapper{
+	width: 100%;
+	height: 100%;
+}
+.statWrapper{
+	width: 100%;
+	height: 100%;
+}
+.infoMain{
+	width: 100%;
+	display: inline-grid;
+	grid-template-columns: auto auto auto;
+	padding: 13px;
+}
