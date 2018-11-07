@@ -1,0 +1,21 @@
+{
+    "name":"Reformation",
+    "nameth":"ยุคปฏิรูปศาสนา",
+    "text":"../text/religiousReformation/main.txt",
+    "img":[
+        "material/ReligiousReformation/Protestanism.jpg",
+        "material/ReligiousReformation/LutherWith95These.jpg"
+    ],
+    "person":[
+        {
+            "name":"Martin Luther",
+            "img":"../material/ReligiousReformation/MartinLuther/portrait.jpg",
+            "info":"../text/religiousReformation/luther/info.txt",
+            "his": "../text/religiousReformation/luther/luther.txt",
+            "another":[
+                "material/ReligiousReformation/MartinLuther/LastSupper.jpg",
+                "material/ReligiousReformation/MartinLuther/Lutheranism.jpg"
+            ]
+        }
+    ]
+}

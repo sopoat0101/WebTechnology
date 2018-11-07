@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./css/gen.css">
     <link rel="stylesheet" href="./css/person.css">
 </head>
-<body>
-    <div id="nav" onload="navConnectJson()">
+<body  onload="connectJson()">
+    <div id="nav">
         <div class="menu">
             <a href="./index.html"><div class="menuitem">หน้าหลัก</div></a>
             <div onclick="go(0)" class="menuitem">ยุคเรอเนสซองส์</div>
@@ -31,6 +31,7 @@
             <div class="inner">
                 <div id="info">
                     <div class="img"></div>
+                    <div></div>
                     <div>
                         <div class="dis">
                             <div>ชื่อ: <b style="color: white">lorem</b></div>
@@ -55,11 +56,11 @@
         <div class="headcard">
             <div></div>
             <div></div>
-            <div class="head">ผลงาน</div>
+            <div class="head">ผลงานและอื่นๆ</div>
         </div>
         <div class="content">
             <div class="inner">
-                
+                <div class="pic"></div>
             </div>
         </div>
     </div>
@@ -68,4 +69,7 @@
     </div>
 
 </body>
+    <script src="./js/person.js"></script>
+    <script src="./js/nav.js"></script>
+
 </html>
