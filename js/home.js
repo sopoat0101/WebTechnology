@@ -19,7 +19,7 @@ function connectJson(){
         }
     };
 
-    xmlhttp.open("GET", "../data/home.json", true);
+    xmlhttp.open("GET", "./data/home.json", true);
     xmlhttp.send();
 
 }

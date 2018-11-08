@@ -1,13 +1,13 @@
 {
     "name":"Renaissance",
     "nameth":"ยุคเรอเนสซองส์",
-    "text":"../text/renaissance/main.txt",
+    "text":"./text/renaissance/main.txt",
     "person":[
         {
             "name":"Leonardo da Vinci",
-            "img":"../material/renaissance/DaVinci/leonardo-da-vinci.jpg",
-            "info":"../text/renaissance/daVinci/info.txt",
-            "his": "../text/renaissance/daVinci/davinci.txt",
+            "img":"./material/renaissance/DaVinci/leonardo-da-vinci.jpg",
+            "info":"./text/renaissance/daVinci/info.txt",
+            "his": "./text/renaissance/daVinci/davinci.txt",
             "another":[
                 "material/renaissance/DaVinci/LastSupper.jpg",
                 "material/renaissance/DaVinci/MonaLisa.jpg",
@@ -16,9 +16,9 @@
         },
         {
             "name":"Michelangelo",
-            "img":"../material/renaissance/Michelangelo/portrait.jpg",
-            "info":"../text/renaissance/Michelangelo/info.txt",
-            "his": "../text/renaissance/Michelangelo/Michelangelo.txt",
+            "img":"./material/renaissance/Michelangelo/portrait.jpg",
+            "info":"./text/renaissance/Michelangelo/info.txt",
+            "his": "./text/renaissance/Michelangelo/Michelangelo.txt",
             "another":[
                 "material/renaissance/Michelangelo/CreationOfAdam.jpg",
                 "material/renaissance/Michelangelo/david.jpg",
@@ -27,9 +27,9 @@
         },
         {
             "name":"Raphael",
-            "img":"../material/renaissance/Raphael/portrait.jpg",
-            "info":"../text/renaissance/Raphael/info.txt",
-            "his": "../text/renaissance/Raphael/raphael.txt",
+            "img":"./material/renaissance/Raphael/portrait.jpg",
+            "info":"./text/renaissance/Raphael/info.txt",
+            "his": "./text/renaissance/Raphael/raphael.txt",
             "another":[
                 "material/renaissance/Raphael/SchoolOfAthens.jpg"
             ]

@@ -1,62 +1,62 @@
 {
     "name":"SeaDiscovery",
     "nameth":"ยุคการสำรวจทางทะเล",
-    "text":"../text/seaDiscovery/main.txt",
+    "text":"./text/seaDiscovery/main.txt",
     "person":[
         {
             "name":"Christopher Columbus",
-            "img":"../material/SeaDiscovery/Columbus/portrait.jpg",
-            "info":"../text/SeaDiscovery/Columbus/info.txt",
-            "his": "../text/SeaDiscovery/Columbus/columbus.txt",
+            "img":"./material/SeaDiscovery/Columbus/portrait.jpg",
+            "info":"./text/SeaDiscovery/Columbus/info.txt",
+            "his": "./text/SeaDiscovery/Columbus/columbus.txt",
             "another":[
-                "../material/SeaDiscovery/Columbus/foundAmerica.jpg",
-                "../material/SeaDiscovery/Columbus/route.jpg"
+                "./material/SeaDiscovery/Columbus/foundAmerica.jpg",
+                "./material/SeaDiscovery/Columbus/route.jpg"
             ]
         },
         {
             "name":"Henry TheNavigator",
-            "img":"../material/SeaDiscovery/HenrytheNavigator/portrait.jpg",
-            "info":"../text/SeaDiscovery/henryTheNavigator/info.txt",
-            "his": "../text/SeaDiscovery/henryTheNavigator/henryTheNavigator.txt",
+            "img":"./material/SeaDiscovery/HenrytheNavigator/portrait.jpg",
+            "info":"./text/SeaDiscovery/henryTheNavigator/info.txt",
+            "his": "./text/SeaDiscovery/henryTheNavigator/henryTheNavigator.txt",
             "another":[
                 "material/SeaDiscovery/HenrytheNavigator/HenryRoute.png"
             ]
         },
         {
             "name":"Bartolomeu Dias",
-            "img":"../material/SeaDiscovery/BartolomeuDias/portrait.jpg",
-            "info":"../text/seaDiscovery/bartolomeuDias/info.txt",
-            "his": "../text/seaDiscovery/bartolomeuDias/dias.txt",
+            "img":"./material/SeaDiscovery/BartolomeuDias/portrait.jpg",
+            "info":"./text/seaDiscovery/bartolomeuDias/info.txt",
+            "his": "./text/seaDiscovery/bartolomeuDias/dias.txt",
             "another":[
-                "../material/SeaDiscovery/BartolomeuDias/route.jpeg",
-                "../material/SeaDiscovery/BartolomeuDias/goodHopeCape.jpg"
+                "./material/SeaDiscovery/BartolomeuDias/route.jpeg",
+                "./material/SeaDiscovery/BartolomeuDias/goodHopeCape.jpg"
             ]
         },
         {
             "name":"Vasco Da Gama",
-            "img":"../material/SeaDiscovery/VascoDaGama/portrait.jpg",
-            "info":"../text/SeaDiscovery/vascoDaGama/info.txt",
-            "his": "../text/SeaDiscovery/vascoDaGama/vascoDaGama.txt",
+            "img":"./material/SeaDiscovery/VascoDaGama/portrait.jpg",
+            "info":"./text/SeaDiscovery/vascoDaGama/info.txt",
+            "his": "./text/SeaDiscovery/vascoDaGama/vascoDaGama.txt",
             "another":[
-                "../material/SeaDiscovery/VascoDaGama/route.jpg"
+                "./material/SeaDiscovery/VascoDaGama/route.jpg"
             ]
         },
         {
             "name":"Ferdinand Magellan",
-            "img":"../material/SeaDiscovery/FerinandMagellan/portrait.jpg",
-            "info":"../text/SeaDiscovery/magellan/info.txt",
-            "his": "../text/SeaDiscovery/magellan/magellan.txt",
+            "img":"./material/SeaDiscovery/FerinandMagellan/portrait.jpg",
+            "info":"./text/SeaDiscovery/magellan/info.txt",
+            "his": "./text/SeaDiscovery/magellan/magellan.txt",
             "another":[
-                "../material/SeaDiscovery/FerinandMagellan/route.svg"
+                "./material/SeaDiscovery/FerinandMagellan/route.svg"
             ]
         },
         {
             "name":"Francis Drake",
-            "img":"../material/SeaDiscovery/FrancisDrake/portrait.jpg",
-            "info":"../text/SeaDiscovery/drake/info.txt",
-            "his": "../text/SeaDiscovery/drake/drake.txt",
+            "img":"./material/SeaDiscovery/FrancisDrake/portrait.jpg",
+            "info":"./text/SeaDiscovery/drake/info.txt",
+            "his": "./text/SeaDiscovery/drake/drake.txt",
             "another":[
-                "../material/SeaDiscovery/FrancisDrake/InvincibleArmada.jpg"
+                "./material/SeaDiscovery/FrancisDrake/InvincibleArmada.jpg"
             ]
         }
     ]
