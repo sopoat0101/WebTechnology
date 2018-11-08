@@ -131,7 +131,8 @@ body{
 
 .go:hover{
     /* background-color: rgb(167, 167, 167); */
-    box-shadow: 0px 0px 15px black;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px black;
 }
 
 .dot{

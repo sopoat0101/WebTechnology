@@ -1,6 +1,7 @@
 var DATA;
 var INFO;
 
+//path json
 var path = ["../data/rena.json", "../data/seadis.json", "../data/refor.json", "", ""];
 
 function setData(data){
