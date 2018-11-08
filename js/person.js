@@ -2,7 +2,11 @@ var DATA;
 var INFO;
 
 //path json
+<<<<<<< HEAD
 var path = ["../data/rena.json", "../data/seadis.json", "../data/refor.json", "../data/science.json", ""];
+=======
+var path = ["./data/rena.json", "./data/seadis.json", "./data/refor.json", "", ""];
+>>>>>>> a0a0b2f47d0798ff7d71c1e4ef744a09d56fbaa0
 
 function setData(data){
     this.DATA = data;
