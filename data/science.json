@@ -1,0 +1,67 @@
+{
+    "name":"ScientificRevolution",
+    "nameth":"ยุคการสำรวจทางทะเล",
+    "text":"./text/sciRev/main.txt",
+    "person":[
+        {
+            "name":"Nicolaus Copernicus",
+            "img":"./material/ScientificRevolution/NicolausCopernicus/portrait.jpg",
+            "info":"./text/sciRev/copernicus/info.txt",
+            "his": "./text/sciRev/copernicus/copernicaus.txt",
+            "another":[
+                "./material/ScientificRevolution/NicolausCopernicus/Copernican+Model.jpg",
+                "./material/ScientificRevolution/NicolausCopernicus/images.jpg",
+                "./material/ScientificRevolution/NicolausCopernicus/images1.jpg"
+            ]
+        },
+        {
+            "name":"Galileo Galilei",
+            "img":"./material/ScientificRevolution/GalieoGalilei/portrait.jpg",
+            "info":"./text/sciRev/galileo/info.txt",
+            "his": "./text/sciRev/galileo/galileo.txt",
+            "another":[
+                "./material/ScientificRevolution/GalileoGalilei/galileo_planets1.png",
+                "./material/ScientificRevolution/GalileoGalilei/image1.png",
+                "./material/ScientificRevolution/GalileoGalilei/image2.jpg"
+            ]
+        },
+        {
+            "name":"Johannes Kepler",
+            "img":"./material/ScientificRevolution/JohannesKepler/portrait.jpg",
+            "info":"./text/sciRev/Kepler/info.txt",
+            "his": "./etxt/sciRev/Kepler/kepler.txt",
+            "another":[
+                "./material/ScientificRevolution/JohannesKepler/image1.jpg",
+                "./material/ScientificRevolution/JohannesKepler/image2.jpg",
+                "./material/ScientificRevolution/JohannesKepler/image3.jpg"
+            ]
+        },
+        {
+            "name":"Vasco Da Gama",
+            "img":"../material/SeaDiscovery/VascoDaGama/portrait.jpg",
+            "info":"../text/SeaDiscovery/vascoDaGama/info.txt",
+            "his": "../text/SeaDiscovery/vascoDaGama/vascoDaGama.txt",
+            "another":[
+                "../material/SeaDiscovery/VascoDaGama/route.jpg"
+            ]
+        },
+        {
+            "name":"Ferdinand Magellan",
+            "img":"../material/SeaDiscovery/FerinandMagellan/portrait.jpg",
+            "info":"../text/SeaDiscovery/magellan/info.txt",
+            "his": "../text/SeaDiscovery/magellan/magellan.txt",
+            "another":[
+                "../material/SeaDiscovery/FerinandMagellan/route.svg"
+            ]
+        },
+        {
+            "name":"Francis Drake",
+            "img":"../material/SeaDiscovery/FrancisDrake/portrait.jpg",
+            "info":"../text/SeaDiscovery/drake/info.txt",
+            "his": "../text/SeaDiscovery/drake/drake.txt",
+            "another":[
+                "../material/SeaDiscovery/FrancisDrake/InvincibleArmada.jpg"
+            ]
+        }
+    ]
+}
