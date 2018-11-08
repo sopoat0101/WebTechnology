@@ -1,0 +1,95 @@
+{
+    "name":"IndustrialRevolution",
+    "nameth":"ยุคการสำรวจทางทะเล",
+    "text":"./text/indRev/main.txt",
+    "person":[
+        {
+            "name":"Adam Smith",
+            "img":"./material/IndustrialRevolution/AdamSmith/portrait.jpg",
+            "info":"./text/indRev/smith/info.txt",
+            "his": "./text/indRev/smith/smith.txt",
+            "another":[
+                "./material/IndustrialRevolution/AdamSmith/image1.jpg",
+                "./material/IndustrialRevolution/AdamSmith/image2.jpg",
+                "./material/IndustrialRevolution/AdamSmith/image3.jpg"
+            ]
+        },
+        {
+            "name":"Karl Marx",
+            "img":"./material/IndustrialRevolution/KarlMarx/portrait.jpg",
+            "info":"./text/indRev/marx/info.txt",
+            "his": "./text/indRev/marx/marx.txt",
+            "another":[
+                "./material/IndustrialRevolution/KarlMarx/image1.jpg",
+                "./material/IndustrialRevolution/KarlMarx/image2.jpg",
+                "./material/IndustrialRevolution/KarlMarx/image3.jpg"
+            ]
+        },
+        {
+            "name":"James Watt",
+            "img":"./material/IndustrialRevolution/JamesWatt/portrait.jpg",
+            "info":"./text/indRev/watt/info.txt",
+            "his": "./text/indRev/watt/watt.txt",
+            "another":[
+                "./material/IndustrialRevolution/JamesWatt/image1.jpg",
+                "./material/IndustrialRevolution/JamesWatt/image2.jpg",
+                "./material/IndustrialRevolution/JamesWatt/image3.jpg"
+            ]
+        },
+        {
+            "name":"Karl Benz",
+            "img":"./material/IndustrialRevolution/KarlBenz/portrait.jpg",
+            "info":"./text/indRev/benz/info.txt",
+            "his": "./text/indRev/benz/benz.txt",
+            "another":[
+                "./material/IndustrialRevolution/KarlBenz/image1.jpg",
+                "./material/IndustrialRevolution/KarlBenz/image2.jpg",
+                "./material/IndustrialRevolution/KarlBenz/image3.jpg"
+            ]
+        },
+        {
+            "name":"Charles Babbage",
+            "img":"./material/IndustrialRevolution/CharlesBabbage/portrait.jpg",
+            "info":"./text/indRev/babbage/info.txt",
+            "his": "./text/indRev/babbage/babbage.txt",
+            "another":[
+                "./material/IndustrialRevolution/CharlesBabbage/image1.jpg",
+                "./material/IndustrialRevolution/CharlesBabbage/image2.jpg",
+                "./material/IndustrialRevolution/CharlesBabbage/image3.jpg"
+            ]
+        },
+        {
+            "name":"Ada Lovelace",
+            "img":"./material/IndustrialRevolution/AdaLovelace/portrait.jpg",
+            "info":"./text/indRev/ada/info.txt",
+            "his": "./text/indRev/ada/ada.txt",
+            "another":[
+                "./material/IndustrialRevolution/AdaLovelace/image1.jpg",
+                "./material/IndustrialRevolution/AdaLovelace/image2.jpg",
+                "./material/IndustrialRevolution/AdaLovelace/image3.jpg"
+            ]
+        },
+        {
+            "name":"Alexander Graham Bell",
+            "img":"./material/IndustrialRevolution/Bell/portrait.jpg",
+            "info":"./text/indRev/bell/info.txt",
+            "his": "./text/indRev/bell/bell.txt",
+            "another":[
+                "./material/IndustrialRevolution/Bell/image1.jpg",
+                "./material/IndustrialRevolution/Bell/image2.jpg",
+                "./material/IndustrialRevolution/Bell/image3.jpg"
+            ]
+        },
+        {
+            "name":"Thomas Alva Edison",
+            "img":"./material/IndustrialRevolution/ThomasEdison/portrait.jpg",
+            "info":"./text/indRev/edison/info.txt",
+            "his": "./text/indRev/edison/edison.txt",
+            "another":[
+                "./material/IndustrialRevolution/ThomasEdison/image1.jpg",
+                "./material/IndustrialRevolution/ThomasEdison/image2.jpg",
+                "./material/IndustrialRevolution/ThomasEdison/image3.jpg"
+            ]
+        }
+    ]
+}
