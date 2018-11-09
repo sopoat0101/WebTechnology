@@ -65,7 +65,7 @@
                 },
                 {
                     "name":"Ferdinand Magellan",
-                    "img":"./material/SeaDiscovery/FerinandMagellan/portrait.jpg",
+                    "img":"./material/SeaDiscovery/FerdinandMagellan/portrait.jpg",
                     "index":"4"
                 },
                 {
@@ -107,7 +107,7 @@
                 },
                 {
                     "name":"Galileo Galilei",
-                    "img":"./material/ScientificRevolution/GalieoGalilei/portrait.jpg",
+                    "img":"./material/ScientificRevolution/GalileoGalilei/portrait.jpg",
                     "index":"1"
                 },
                 {

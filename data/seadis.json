@@ -5,12 +5,13 @@
     "person":[
         {
             "name":"Christopher Columbus",
-            "img":"./material/SeaDiscovery/Columbus/portrait.jpg",
-            "info":"./text/SeaDiscovery/Columbus/info.txt",
-            "his": "./text/SeaDiscovery/Columbus/columbus.txt",
+            "img":"./material/SeaDiscovery/columbus/portrait.jpg",
+            "info":"./text/SeaDiscovery/columbus/info.txt",
+            "his": "./text/SeaDiscovery/columbus/columbus.txt",
             "another":[
-                "./material/SeaDiscovery/Columbus/foundAmerica.jpg",
-                "./material/SeaDiscovery/Columbus/route.jpg"
+                "./material/SeaDiscovery/Columbus/image1.jpg",
+                "./material/SeaDiscovery/Columbus/image2.jpg",
+                "./material/SeaDiscovery/Columbus/image3.jpg"
             ]
         },
         {
@@ -19,7 +20,9 @@
             "info":"./text/SeaDiscovery/henryTheNavigator/info.txt",
             "his": "./text/SeaDiscovery/henryTheNavigator/henryTheNavigator.txt",
             "another":[
-                "material/SeaDiscovery/HenrytheNavigator/HenryRoute.png"
+                "material/SeaDiscovery/HenrytheNavigator/image1.jpg",
+                "material/SeaDiscovery/HenrytheNavigator/image2.jpg",
+                "material/SeaDiscovery/HenrytheNavigator/image3.jpg"
             ]
         },
         {
@@ -28,8 +31,9 @@
             "info":"./text/seaDiscovery/bartolomeuDias/info.txt",
             "his": "./text/seaDiscovery/bartolomeuDias/dias.txt",
             "another":[
-                "./material/SeaDiscovery/BartolomeuDias/route.jpeg",
-                "./material/SeaDiscovery/BartolomeuDias/goodHopeCape.jpg"
+                "./material/SeaDiscovery/BartolomeuDias/image1.jpg",
+                "./material/SeaDiscovery/BartolomeuDias/image2.jpg",
+                "./material/SeaDiscovery/BartolomeuDias/image3.jpg"
             ]
         },
         {
@@ -38,16 +42,20 @@
             "info":"./text/SeaDiscovery/vascoDaGama/info.txt",
             "his": "./text/SeaDiscovery/vascoDaGama/vascoDaGama.txt",
             "another":[
-                "./material/SeaDiscovery/VascoDaGama/route.jpg"
+                "./material/SeaDiscovery/VascoDaGama/image1.jpg",
+                "./material/SeaDiscovery/VascoDaGama/image2.jpg",
+                "./material/SeaDiscovery/VascoDaGama/image3.jpg"
             ]
         },
         {
             "name":"Ferdinand Magellan",
-            "img":"./material/SeaDiscovery/FerinandMagellan/portrait.jpg",
+            "img":"./material/SeaDiscovery/FerdinandMagellan/portrait.jpg",
             "info":"./text/SeaDiscovery/magellan/info.txt",
             "his": "./text/SeaDiscovery/magellan/magellan.txt",
             "another":[
-                "./material/SeaDiscovery/FerinandMagellan/route.svg"
+                "./material/SeaDiscovery/FerdinandMagellan/image1.jpg",
+                "./material/SeaDiscovery/FerdinandMagellan/image2.jpg",
+                "./material/SeaDiscovery/FerdinandMagellan/image3.jpg"
             ]
         },
         {
@@ -56,7 +64,9 @@
             "info":"./text/SeaDiscovery/drake/info.txt",
             "his": "./text/SeaDiscovery/drake/drake.txt",
             "another":[
-                "./material/SeaDiscovery/FrancisDrake/InvincibleArmada.jpg"
+                "./material/SeaDiscovery/FrancisDrake/image1.jpg",
+                "./material/SeaDiscovery/FrancisDrake/image2.jpg",
+                "./material/SeaDiscovery/FrancisDrake/image3.jpg"
             ]
         }
     ]
